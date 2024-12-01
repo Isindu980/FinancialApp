@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\fragment_goal.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\fragment_goal.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\dialog_edit_budget.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\dialog_edit_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\item_image.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\item_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\fragment_map.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\fragment_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\fragment_camera.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\fragment_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\dialog_edit_goal.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\dialog_edit_goal.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\item_gimage.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\item_gimage.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\fragment_gallery.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\fragment_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\fragment_credit_card.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\fragment_credit_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\fragment_credit_card_expenses.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\fragment_credit_card_expenses.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\fragment_budget.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\fragment_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\add_map_note.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\add_map_note.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\nav_header.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\nav_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\card_item.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\card_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\list_item_budget.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\list_item_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\fragment_view_card.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\fragment_view_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\fragment_income.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\fragment_income.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\item_layout.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\dialog_edit_expense.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\dialog_edit_expense.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\list_item_income.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\list_item_income.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\fragment_add_card.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\fragment_add_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\item_goal.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\item_goal.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\fragment_full_image.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\fragment_full_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\fragment_expenses.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\fragment_expenses.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\fragment_credit_card_settle.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\fragment_credit_card_settle.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\fragment_sidebar.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\fragment_sidebar.xml"
+    },
+    {
+        "merged": "com.example.financialapp-mergeDebugResources-62:/layout/fragment_full_image.xml",
+        "source": "com.example.financialapp-main-65:/layout/fragment_full_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\item_expense.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\item_expense.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\view_map_notes.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\view_map_notes.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-mergeDebugResources-62:\\layout\\activity_signup.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.7\\com.example.financialapp-main-65:\\layout\\activity_signup.xml"
+    }
+]

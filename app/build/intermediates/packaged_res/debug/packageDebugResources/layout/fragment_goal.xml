@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorBackground"
+    android:gravity="center"
+    tools:context=".GoalFragment">
+
+    <EditText
+        android:id="@+id/editTextGoalType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Goal Type"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:minHeight="56dp"
+        android:padding="16dp"
+        android:background="@drawable/rounded_input"
+        android:elevation="2dp"
+        tools:ignore="HardcodedText,TextFields" />
+
+    <EditText
+        android:id="@+id/editTextGoalTargetAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Target Amount"
+        android:inputType="numberDecimal"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:minHeight="56dp"
+        android:padding="16dp"
+        android:background="@drawable/rounded_input"
+        android:elevation="2dp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editTextGoalCurrentAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Current Amount"
+        android:inputType="numberDecimal"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:minHeight="56dp"
+        android:padding="16dp"
+        android:background="@drawable/rounded_input"
+        android:elevation="2dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/buttonAddGoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Goal"
+        android:textColor="@android:color/white"
+        android:minHeight="56dp"
+        android:padding="16dp"
+        android:background="@drawable/rounded_button"
+        android:elevation="4dp"
+        tools:ignore="HardcodedText" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewGoals"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

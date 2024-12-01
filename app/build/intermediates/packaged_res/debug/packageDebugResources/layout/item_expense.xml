@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:elevation="4dp"
+    android:layout_margin="8dp"
+    android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/textViewExpenseType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="8dp"
+        android:drawablePadding="8dp" />
+
+
+    <TextView
+        android:id="@+id/textViewExpenseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorSecondaryText"
+        android:layout_marginBottom="4dp"
+        android:drawablePadding="8dp" />
+
+
+    <TextView
+        android:id="@+id/textViewExpenseAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="8dp"
+        android:drawablePadding="8dp" />
+
+
+    <TextView
+        android:id="@+id/textViewExpenseNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/colorSecondaryText"
+        android:layout_marginBottom="16dp"
+        android:drawablePadding="8dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/buttonEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:backgroundTint="@color/colorButton"
+            android:textColor="@color/colorButtonText"
+            android:layout_marginEnd="8dp"
+            android:padding="10dp"
+            android:minWidth="100dp" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:backgroundTint="@color/colorButton"
+            android:textColor="@color/colorButtonText"
+            android:padding="10dp"
+            android:minWidth="100dp"/>
+    </LinearLayout>
+
+</LinearLayout>

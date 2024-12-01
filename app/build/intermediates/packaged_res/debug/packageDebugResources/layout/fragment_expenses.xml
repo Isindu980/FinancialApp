@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorBackground">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expenses"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorText"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="center"
+        android:textAllCaps="true"
+        android:letterSpacing="0.2"
+        android:shadowColor="@color/colorAccent"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1.5" />
+
+
+    <Spinner
+        android:id="@+id/spinnerExpenseType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:background="@drawable/rounded_input"
+        android:popupBackground="@drawable/rounded_input"
+        android:textColor="@color/colorText"
+        android:spinnerMode="dropdown" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="16dp">
+
+        <EditText
+            android:id="@+id/editTextExpenseDate"
+            android:layout_width="347dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_input"
+            android:focusable="false"
+            android:hint="Select Date"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorText"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/imageViewCalendar"
+            android:layout_width="84dp"
+            android:layout_height="48dp"
+            android:contentDescription="@string/select_date"
+            android:padding="8dp"
+            android:src="@drawable/calendar" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextExpenseNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Note"
+        android:textColorHint="@color/colorText"
+        android:textColor="@color/colorText"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_input" />
+
+
+    <EditText
+        android:id="@+id/editTextExpenseAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Amount"
+        android:textColorHint="@color/colorText"
+        android:textColor="@color/colorText"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_input" />
+
+    <Button
+        android:id="@+id/buttonAddExpense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Expense"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/colorButtonText"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:minHeight="40dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
+        android:overScrollMode="never"
+        android:background="@color/colorBackground"
+        tools:listitem="@layout/item_expense" />
+
+
+</LinearLayout>

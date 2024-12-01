@@ -1,0 +1,138 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:navGraph="@navigation/nav_graph"
+        app:defaultNavHost="true" />
+    <!-- Home Fragment -->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.financialapp.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+
+        <!-- Actions from Home to other fragments -->
+        <action
+            android:id="@+id/action_home_to_expenses"
+            app:destination="@id/nav_expenses" />
+
+        <action
+            android:id="@+id/action_home_to_income"
+            app:destination="@id/nav_income" />
+
+        <action
+            android:id="@+id/action_home_to_budget"
+            app:destination="@id/nav_budget" />
+
+        <action
+            android:id="@+id/action_home_to_credit_card"
+            app:destination="@id/nav_credit_card" />
+
+        <action
+            android:id="@+id/action_home_to_settings"
+            app:destination="@id/nav_settings" />
+
+        <action
+            android:id="@+id/action_home_to_goals"
+            app:destination="@id/nav_goals" />
+        <action
+            android:id="@+id/action_home_to_camera"
+            app:destination="@id/nav_camera" />
+        <action
+            android:id="@+id/action_home_to_gallery"
+            app:destination="@id/nav_gallery" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_profile"
+            app:destination="@id/nav_profile" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_map"
+            app:destination="@id/nav_map" />
+    </fragment>
+
+    <!-- Expenses Fragment -->
+    <fragment
+        android:id="@+id/nav_expenses"
+        android:name="com.example.financialapp.ExpensesFragment"
+        android:label="Expenses"
+        tools:layout="@layout/fragment_expenses" />
+
+    <!-- Income Fragment -->
+    <fragment
+        android:id="@+id/nav_income"
+        android:name="com.example.financialapp.IncomeFragment"
+        android:label="Income"
+        tools:layout="@layout/fragment_income" />
+
+    <!-- Budget Fragment -->
+    <fragment
+        android:id="@+id/nav_budget"
+        android:name="com.example.financialapp.BudgetFragment"
+        android:label="Budget"
+        tools:layout="@layout/fragment_budget" />
+
+    <!-- Credit Card Fragment -->
+    <fragment
+        android:id="@+id/creditCardFragment"
+        android:name="com.example.financialapp.CreditCardFragment"
+        android:label="Credit Card Fragment">
+        <action
+            android:id="@+id/action_creditCardFragment_to_addCardFragment"
+            app:destination="@id/addCardFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addCardFragment"
+        android:name="com.example.financialapp.AddCardFragment"
+        android:label="Add Card Fragment" />
+
+
+    <!-- Settings Fragment -->
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.financialapp.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <!-- Goals Fragment -->
+    <fragment
+        android:id="@+id/nav_goals"
+        android:name="com.example.financialapp.GoalFragment"
+        android:label="Goals"
+        tools:layout="@layout/fragment_goal" />
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="com.example.financialapp.CameraFragment"
+        android:label="Camera"
+        tools:layout="@layout/fragment_camera" >
+        <action
+            android:id="@+id/action_nav_camera_to_nav_gallery"
+            app:destination="@id/nav_gallery" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.financialapp.MapFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_map" >
+        <action
+            android:id="@+id/action_nav_map_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.financialapp.GalleryFragment"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_gallery" >
+        <action
+            android:id="@+id/action_nav_gallery_to_nav_camera"
+            app:destination="@id/nav_camera" />
+    </fragment>
+
+</navigation>

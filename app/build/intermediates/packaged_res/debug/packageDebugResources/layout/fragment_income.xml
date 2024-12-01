@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IncomeFragment"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/topicTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Income Tracker"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/amountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Amount (Rs.)"
+        android:textColorHint="@color/colorText"
+        android:textColor="@color/colorText"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_input"
+        app:layout_constraintTop_toBottomOf="@id/topicTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/sourceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Source"
+        android:textColorHint="@color/colorText"
+        android:textColor="@color/colorText"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_input"
+        app:layout_constraintTop_toBottomOf="@id/amountEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/dateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Date"
+        android:textColorHint="@color/colorText"
+        android:textColor="@color/colorText"
+        android:focusable="false"
+        android:clickable="true"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_input"
+        app:layout_constraintTop_toBottomOf="@id/sourceEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/notesEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Notes"
+        android:textColorHint="@color/colorText"
+        android:textColor="@color/colorText"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_input"
+        app:layout_constraintTop_toBottomOf="@id/dateEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textColor="@color/colorButtonText"
+        android:backgroundTint="@color/colorButton"
+        app:layout_constraintTop_toBottomOf="@id/notesEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:background="@drawable/rounded_button"/>
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        app:layout_constraintTop_toBottomOf="@id/saveButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp">
+
+
+        <TableRow
+            android:id="@+id/headerRow"
+            android:background="@color/colorPrimary"
+            android:padding="8dp">
+
+            <TextView
+                android:text="Amount"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="8dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="Source"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="8dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="Date"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="8dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="Notes"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="8dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="Action"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:padding="8dp"
+                android:layout_weight="1" />
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

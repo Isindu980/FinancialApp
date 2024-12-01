@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://fmaapp-c438c-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">44242170194</string>
+    <string name="google_api_key" translatable="false">AIzaSyDu9Jpu3R9rTTSmpE7ObNL6YCse65fxnA4</string>
+    <string name="google_app_id" translatable="false">1:44242170194:android:bdb8abb7d07f4925944a8b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDu9Jpu3R9rTTSmpE7ObNL6YCse65fxnA4</string>
+    <string name="google_storage_bucket" translatable="false">fmaapp-c438c.appspot.com</string>
+    <string name="project_id" translatable="false">fmaapp-c438c</string>
+</resources>

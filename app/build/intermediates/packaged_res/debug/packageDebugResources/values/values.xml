@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="expense_types">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Utilities</item>
+        <item>Entertainment</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="goal_types">
+        <item>Saving</item>
+        <item>Investment</item>
+        <item>Emergency Fund</item>
+        <item>Travel</item>
+        <item>Education</item>
+        <item>Debt Repayment</item>
+    </string-array>
+    <color name="colorAccent">#476C9B</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorButton">#123456</color>
+    <color name="colorButtonText">#FFFFFF</color>
+    <color name="colorPrimary">#0A2342</color>
+    <color name="colorPrimaryDark">#081B34</color>
+    <color name="colorPrimaryText">#2C3E50</color>
+    <color name="colorSecondaryText">#607489</color>
+    <color name="colorText">#375A81</color>
+    <color name="colorWarning">#FFA500</color>
+    <color name="goal_not_reached_color">#BD9797</color>
+    <color name="goal_reached_color">#319085</color>
+    <color name="nav_icon_color">#3F51B5</color>
+    <color name="nav_item_text_color">#000000</color>
+    <color name="nav_selected_item_text_color">#FF5722</color>
+    <color name="toolbar_subtitle_color">#B0BEC5</color>
+    <color name="toolbar_title_color">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <item name="drawer_layout" type="id"/>
+    <item name="textViewEmail" type="id"/>
+    <item name="textViewEmailLabel" type="id"/>
+    <string name="app_name">FinancialApp</string>
+    <string name="firebase_database_url" translatable="false">https://fmaapp-c438c-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">44242170194</string>
+    <string name="google_api_key" translatable="false">AIzaSyDu9Jpu3R9rTTSmpE7ObNL6YCse65fxnA4</string>
+    <string name="google_app_id" translatable="false">1:44242170194:android:bdb8abb7d07f4925944a8b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDu9Jpu3R9rTTSmpE7ObNL6YCse65fxnA4</string>
+    <string name="google_storage_bucket" translatable="false">fmaapp-c438c.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home"/>
+    <string name="navigation_drawer_close"/>
+    <string name="navigation_drawer_open">\n</string>
+    <string name="project_id" translatable="false">fmaapp-c438c</string>
+    <string name="select_date">Select Date</string>
+    <string name="start_capture">Start Capture</string>
+    <string name="stop_capture">Stop Capture</string>
+    <string name="take_photo">Take Photo</string>
+    <style name="Theme.FinancialApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+    </style>
+    <style name="Theme.FinancialApp.Dark" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryVariant">@color/colorAccent</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+    </style>
+    <style name="Theme.FinancialApp.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+    <style name="Theme.MyPinkApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorButtonText</item>
+
+        
+        <item name="colorAccent">@color/colorAccent</item>
+
+        
+        <item name="android:colorBackground">@color/colorBackground</item>
+
+        
+        <item name="android:textColor">@color/colorText</item>
+
+        
+        <item name="android:buttonStyle">@style/Widget.MyPinkApp.Button</item>
+    </style>
+    <style name="ToolbarStyle" parent="Widget.AppCompat.Toolbar">
+            <item name="android:background">?attr/colorPrimary</item>
+            <item name="android:elevation">8dp</item>
+            <item name="android:titleTextColor">@color/toolbar_title_color</item>
+            <item name="android:subtitleTextColor">@color/toolbar_subtitle_color</item>
+            <item name="android:gravity">center_vertical</item>
+
+        </style>
+    <style name="Widget.MyPinkApp.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/colorButton</item>
+        <item name="android:textColor">@color/colorButtonText</item>
+    </style>
+</resources>

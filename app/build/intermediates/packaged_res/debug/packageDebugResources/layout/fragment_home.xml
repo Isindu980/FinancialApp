@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/colorBackground">
+
+
+    <TextView
+        android:id="@+id/totalExpensesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Total Expenses: RS 0.00"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:elevation="2dp" />
+
+
+    <TextView
+        android:id="@+id/totalIncomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/totalExpensesTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Total Income: RS 0.00"
+        android:textSize="24sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:elevation="2dp" />
+
+
+    <TextView
+        android:id="@+id/numberOfGoalsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/totalIncomeTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Number of Goals: 0"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:elevation="2dp" />
+
+
+    <TextView
+        android:id="@+id/incompleteGoalsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/numberOfGoalsTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Incomplete Goals: 0"
+        android:textSize="20sp"
+        android:textColor="@color/colorWarning"
+        android:textStyle="bold"
+        android:elevation="2dp" />
+
+
+
+    <Button
+        android:id="@+id/cameraButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/incompleteGoalsTextView"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:drawablePadding="4dp"
+        android:elevation="2dp"
+        android:padding="8dp"
+        android:text="Open Camera"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/galleryButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cameraButton"
+        android:layout_marginTop="8dp"
+        android:text="Open Gallery"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:drawablePadding="4dp"
+        android:elevation="2dp"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/galleryButton"
+        android:layout_marginTop="8dp"
+        android:text="Open Map"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:drawablePadding="4dp"
+        android:elevation="2dp"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>

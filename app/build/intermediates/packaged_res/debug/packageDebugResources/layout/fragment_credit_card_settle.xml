@@ -1,0 +1,137 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorBackground"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/card_background"
+        android:elevation="6dp"
+        android:layout_margin="16dp">
+
+        <ImageView
+            android:id="@+id/backArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_ios_24"
+            android:contentDescription="Back Arrow"
+            android:layout_gravity="start"
+            android:layout_marginBottom="12dp"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/cardDetailsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card Number: 1234 **** **** 5678"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="12dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorButton"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:id="@+id/expensesTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Expenses: $0.0"
+            android:textSize="16sp"
+            android:textColor="@color/colorBackground"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/editTextLimit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Credit Card Limit"
+            android:inputType="numberDecimal"
+            android:background="@drawable/rounded_input"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/editTextOutstandingBalance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Outstanding Balance"
+            android:inputType="numberDecimal"
+            android:background="@drawable/rounded_input"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/editTextRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Interest Rate (%)"
+            android:inputType="numberDecimal"
+            android:background="@drawable/rounded_input"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/editTextPayment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Payment Amount"
+            android:inputType="numberDecimal"
+            android:background="@drawable/rounded_input"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/editTextDueDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Due Date (yyyy-MM-dd)"
+            android:inputType="date"
+            android:background="@drawable/rounded_input"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/buttonCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:backgroundTint="@color/colorButton"
+            android:textColor="@color/white"
+            android:padding="12dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Payment Due: $0.0"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="16dp"
+            android:paddingBottom="12dp"/>
+
+    </LinearLayout>
+</ScrollView>

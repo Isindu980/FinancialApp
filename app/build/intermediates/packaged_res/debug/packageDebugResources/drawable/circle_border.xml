@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Gradient to give it depth -->
+    <gradient
+        android:startColor="@color/colorPrimary"
+        android:endColor="@color/colorPrimaryDark"
+        android:angle="45" />
+
+    <!-- Solid fallback in case gradient fails -->
+    <solid android:color="@color/colorPrimary" />
+
+    <!-- Border around the oval -->
+    <stroke
+        android:width="6dp"
+        android:color="@color/colorAccent" />
+
+    <!-- Shadow effect -->
+    <padding android:left="9dp"
+        android:top="9dp"
+        android:right="9dp"
+        android:bottom="9dp" />
+
+    <!-- Size of the oval -->
+    <size
+        android:width="129dp"
+        android:height="129dp" />
+
+    <!-- Optional elevation (if used as background) -->
+    <corners android:radius="60dp" />
+</shape>
